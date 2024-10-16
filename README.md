@@ -3,6 +3,15 @@
 ## Description
 This project is a NestJS-based Chatbot API that allows users to interact with a chatbot to get information about products. 
 
+## API URL
+You should used the api from the following link: http://178.156.132.110:8030
+
+```bash
+curl -X POST http://178.156.132.110:8030/chatbot \
+-H "Content-Type: application/json" \
+-d '{"input": "I am looking for a present for my dad"}'
+```
+
 ## Project setup
 To get started with the project, follow these steps:
 1. Copy the `.env.example` file to create a `.env` file, then update the necessary configurations in the .env file.
